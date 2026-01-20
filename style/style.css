@@ -51,3 +51,21 @@ body{
         font-weight: 900;
         
     }
+
+    /* animation */
+
+    @keyframes rotate45deg {
+    0% {
+    transform: rotate(-45deg);
+  }
+  50% {
+    transform: rotate(45deg);
+  }
+  100% {
+    transform: rotate(-45deg);
+  }
+}
+
+.animate-rotate-slow {
+  animation: rotate45deg 2.5s ease-in-out infinite;
+}

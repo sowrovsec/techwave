@@ -21,7 +21,7 @@
     <div class="max-w-7xl mx-auto px-6 py-6 flex justify-between items-center">
 
    
-    <img src="./assets/TechWave.png" alt="logo">
+    <img  src="./assets/TechWave.png" alt="logo">
 
     <nav class="space-x-8 hidden md:block">
       <a href="#" class="text-gray-300 hover:text-white">About</a>
@@ -29,9 +29,12 @@
       <a href="#" class="text-gray-300 hover:text-white">Host</a>
     </nav>
 
-    <button class="btn-gradient">
+    <button class=" hidden md:block btn-gradient">
       Subscribe
     </button>
+    <button class="md:hidden p-2 text-white">
+  <i class="fa-solid fa-bars text-2xl"></i>
+</button>
      </div>
       <!-- HERO SECTION -->
    <section class="text-center py-20 px-6 relative bg-hero">
@@ -41,9 +44,16 @@
 
     <!-- center img& Icon -->
     <div class="relative mx-auto w-64 h-64 mb-8">
-      <img src="./assets/hero-circle.png" alt="hero circle" class="absolute absolute inset-1/2 -translate-x-1/2 -translate-y-1/2 z-0">
-      <img src="./assets/microphone.png" alt="hero" class="absolute absolute inset-1/2 -translate-x-1/2 -translate-y-1/2 z-10">
-
+      <img src="./assets/hero-circle.png" alt="hero circle" class="absolute absolute inset-1/2 -translate-x-1/2 -translate-y-1/2 z-0 ">
+      <img src="./assets/microphone.png" alt="hero" class="absolute absolute inset-1/2 -translate-x-1/2 -translate-y-1/2 z-10 animate-rotate-slow ">
+     
+     
+      <!-- Badge -->
+  <div
+    class="absolute -top-[-30px] -right-[10px] bg-green-500 text-green text-xs font-semibold px-3 py-1 rounded-full shadow-lg"
+  >
+    NEW
+  </div>
     </div>
 
     <h2 class="techwave-title  mb-4">TechWave</h2>
