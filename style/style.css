@@ -22,3 +22,26 @@ body{
   .bg-hero{
     background: url('../assets/hero-bg.png') no-repeat center center/cover;
   }
+  .section-title{
+    color: #ffffff;
+    font-size: 46px;
+    font-weight: 700;
+    margin-bottom: 16px;
+    }
+    .stat-number{
+        color: #5fed06;
+        font-size: 26px;
+        font-weight: 700;
+        margin-bottom: 8px;
+    }
+    .stat-label{
+        color: #FFFFFF;
+        font-size: 16px;
+    }
+   
+    .techwave-title{
+        color: #FFFFFF;
+        font-size: 60px;
+        font-weight: 900;
+        
+    }
