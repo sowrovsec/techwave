@@ -7,7 +7,9 @@ body{
 .header-bg{
    background-color:  #1A0B2E;
 }
-
+.why-bg{
+    background-color: #230E3D;
+}
 
 .btn-gradient{
     background: linear-gradient(135deg, #eaea09, #e43e07, #3b258b);
