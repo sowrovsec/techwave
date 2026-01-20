@@ -1,5 +1,24 @@
-
-
-h1 {    
-    color: blue; 
+body{
+    margin: 0;
+    padding: 0;
 }
+
+/* colors */
+.header-bg{
+   background-color:  #1A0B2E;
+}
+
+
+.btn-gradient{
+    background: linear-gradient(135deg, #eaea09, #e43e07, #3b258b);
+    color: white;
+   
+}
+.btn-outline{
+    border: 2px solid #e43e07;
+    color: #e43e07;
+    background-color: transparent;
+  }
+  .bg-hero{
+    background: url('../assets/hero-bg.png') no-repeat center center/cover;
+  }
