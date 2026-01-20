@@ -35,6 +35,30 @@ body{
     padding: 10px 25px;
     border-radius: 50px;
   }
+
+.btn-gradient,
+.btn-outline{
+    transition: 
+      background-color 0.3s ease,
+      color 0.3s ease,
+      transform 0.2s ease;
+}
+
+/* Gradient button hover */
+.btn-gradient:hover{
+    transform: translateY(-1px);
+    opacity: 0.9;
+    cursor: pointer;
+}
+
+/* Outline button hover */
+.btn-outline:hover{
+    background-color: rgb(153, 255, 0);
+    color: black;
+    transform: translateY(-1px);
+    cursor: pointer;
+}
+
   .bg-hero{
     background: url('../assets/hero-bg.png') no-repeat center center/cover;
   }
